@@ -1,0 +1,16 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "RoomSphere",
+  "ComponentId" : "d520d8d4-5838-4d2d-8580-80b8426f5a5b",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [""],
+  "Capabilities": {
+    "AllowedConnections": [  ],
+    "Gpio": [ 0, 1, 2, 26, 28, 42, 43, 17 ],
+    "I2cMaster": [ "ISU2" ],
+    "SpiMaster": [ "ISU1" ],
+    "MutableStorage": { "SizeKB": 8 },
+    "WifiConfig": false
+  },
+  "ApplicationType":"Default"
+}
